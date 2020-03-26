@@ -3,12 +3,14 @@ import makeCarousel from 'react-reveal/makeCarousel';
 import Slide from 'react-reveal/Slide';
 import styled, { css } from 'styled-components';
 import Heroes from "../Images/heroes_app.png";
-import Quote from "../Images/random_quote.PNG";
+import Quote from "../Images/randomQuote.png";
 import Calculator from "../Images/calculator.png";
 import Color from "../Images/color_game.png";
 import Drum from "../Images/drum_machine.png";
 import Markdown from "../Images/markdown.png";
-import Pomodoro from "../Images/pomodoro_clock.png";
+import Pomodoro from "../Images/pomodoro.png";
+import LazyImage from "./LazyImage";
+import placeholderImg from "../placeholder.png"; 
 
 const width = '700px', height='350px';
 const Container = styled.div`
@@ -70,10 +72,11 @@ display: flex;
 justify-content: center;
 @media screen and (min-width: 300px) and (max-width: 790px) {
   display: none;
-};
+};`;
 
-`;
-const CarouselUI = ({ position, total, handleClick, children }) => (
+const CarouselUI = ({ position, total, handleClick, children }) => {
+
+  return(
   <Container>
   <Children>
   {children}
@@ -89,58 +92,58 @@ const CarouselUI = ({ position, total, handleClick, children }) => (
     </Dots>
     </Container>
     );
-    const Carousel = makeCarousel(CarouselUI);
+  }
+const Carousel = makeCarousel(CarouselUI);
     
     const Slider = () => {
       return(
-        <Carousel defaultWait={2500}>
+        <Carousel>
         <Slide right>
         <div>
-        <a href="https://codesandbox.io/s/heores-app-1ei22?autoresize=1&fontsize=14&hidenavigation=1&theme=dark&view=preview" target="_blank">
-        <img src={Heroes} className="slider-image" alt="Heroes App"></img>
+        <a href="https://heroes-library.netlify.com/" target="_blank">
+        <LazyImage placeholder={placeholderImg} src={Heroes} alt="Heroes App" classStyle={"slider-image"} />
         </a>
-        
         </div>
         </Slide>
         <Slide right>
         <div>
-        <a href="https://codesandbox.io/s/random-quote-generator-n3mzj?autoresize=1&fontsize=14&hidenavigation=1&theme=dark&view=preview" target="_blank">
-        <img src={Quote} className="slider-image" alt="Random-Quote Machine"></img>
+        <a href="https://randomquote-lotr.netlify.com/" target="_blank">
+        <LazyImage placeholder={placeholderImg} src={Quote} alt="Random-Quote Machine" classStyle={"slider-image"} />
         </a>
         </div>
         </Slide>
         <Slide right>
         <div>
         <a href="https://codepen.io/c-tia-antunes/full/BayVPge" target="_blank">
-        <img src={Calculator} className="slider-image" alt="Calculator App"></img>
+          <LazyImage placeholder={placeholderImg} src={Calculator} alt="Calculator App" classStyle={"slider-image"} />
         </a>
         </div>
         </Slide>
         <Slide right>
         <div>
         <a href="https://codepen.io/c-tia-antunes/full/PowoeOz" target="_blank">
-        <img src={Color} className="slider-image" alt="Color Game App"></img>
+          <LazyImage placeholder={placeholderImg} src={Color} alt="Color Game App" classStyle={"slider-image"} />
         </a>
         </div>
         </Slide>
         <Slide right>
         <div>
-        <a href="https://codesandbox.io/s/drum-machine-luluj?autoresize=1&fontsize=14&hidenavigation=1&theme=dark&view=preview" target="_blank">
-        <img src={Drum} className="slider-image" alt="Drum Machine"></img>
+        <a href="https://drumapp.netlify.com" target="_blank">
+        <LazyImage placeholder={placeholderImg} src={Drum} alt="Drum Machine" classStyle={"slider-image"} />
         </a>
         </div>
         </Slide>
         <Slide right>
         <div>
-        <a href="https://codesandbox.io/s/mardown-previewer-kdq9e?autoresize=1&fontsize=14&hidenavigation=1&theme=dark&view=preview" target="_blank">
-        <img src={Markdown} className="slider-image" alt="Markdown Preview"></img>
+        <a href="https://mkdn-previewer.netlify.com" target="_blank">
+        <LazyImage placeholder={placeholderImg} src={Markdown} alt="Markdown Previewer" classStyle={"slider-image"} />
         </a>
         </div>
         </Slide>
         <Slide right>
         <div>
-        <a href="https://codesandbox.io/s/pomodoro-clock-app-o0si8?fontsize=14&hidenavigation=1&theme=dark&view=preview" target="_blank">
-        <img src={Pomodoro} className="slider-image" alt="Pomodoro Clock"></img>
+        <a href="https://pomodoro-clck.netlify.com/" target="_blank">
+        <LazyImage placeholder={placeholderImg} src={Pomodoro} alt="Pomodoro Clock" classStyle={"slider-image"} />
         </a>
         </div>
         </Slide>
