@@ -97,7 +97,7 @@ const Carousel = makeCarousel(CarouselUI);
     
     const Slider = () => {
       return(
-        <Carousel>
+        <Carousel defaultWait={7000}>
         <Slide right>
         <div>
         <a href="https://heroes-library.netlify.com/" target="_blank">
