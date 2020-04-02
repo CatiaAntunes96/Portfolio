@@ -19,7 +19,7 @@ const Portfolio = () => {
         showCarrousel()
     }, []);
 
-    const loader = <Loader type="Oval" color="#474242" height={200} width={100} className="loading"/>;
+    const loader = <Loader type="Oval" color="#474242" height={200} width={100} />;
 
     return(
         <div>
