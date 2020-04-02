@@ -23,10 +23,10 @@
 @media screen and (min-width: 300px) and (max-width: 500px) {
     .portfolio-title {
         font-size: 30px;
-        margin-bottom: 20%;
+        margin-bottom: 10%;
     }
     .slider-image {
-        width: 355px;
+        width: 315px;
         height: 235px;
     }
 }
