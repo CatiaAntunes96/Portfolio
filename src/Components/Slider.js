@@ -121,7 +121,7 @@ const Carousel = makeCarousel(CarouselUI);
         </Slide>
         <Slide right>
         <div>
-        <a href="https://codepen.io/c-tia-antunes/full/PowoeOz" target="_blank">
+        <a href="https://color-game-app.netlify.com/?_ga=2.199128230.801667734.1585840778-215967017.1585072614" target="_blank">
           <LazyImage placeholder={placeholderImg} src={Color} alt="Color Game App" classStyle={"slider-image"} />
         </a>
         </div>
