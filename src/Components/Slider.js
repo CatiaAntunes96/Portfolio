@@ -101,49 +101,49 @@ const Carousel = makeCarousel(CarouselUI);
         <Slide right>
         <div>
         <a href="https://heroes-library.netlify.com/" target="_blank">
-        <LazyImage placeholder={placeholderImg} src={Heroes} alt="Heroes App" classStyle={"slider-image"} />
+        <img src={Heroes} alt="Heroes App" classStyle={"slider-image"} />
         </a>
         </div>
         </Slide>
         <Slide right>
         <div>
         <a href="https://randomquote-lotr.netlify.com/" target="_blank">
-        <LazyImage placeholder={placeholderImg} src={Quote} alt="Random-Quote Machine" classStyle={"slider-image"} />
+        <img src={Quote} alt="Random-Quote Machine" classStyle={"slider-image"} />
         </a>
         </div>
         </Slide>
         <Slide right>
         <div>
         <a href="https://codepen.io/c-tia-antunes/full/BayVPge" target="_blank">
-          <LazyImage placeholder={placeholderImg} src={Calculator} alt="Calculator App" classStyle={"slider-image"} />
+          <img src={Calculator} alt="Calculator App" classStyle={"slider-image"} />
         </a>
         </div>
         </Slide>
         <Slide right>
         <div>
         <a href="https://color-game-app.netlify.com/?_ga=2.199128230.801667734.1585840778-215967017.1585072614" target="_blank">
-          <LazyImage placeholder={placeholderImg} src={Color} alt="Color Game App" classStyle={"slider-image"} />
+          <img src={Color} alt="Color Game App" classStyle={"slider-image"} />
         </a>
         </div>
         </Slide>
         <Slide right>
         <div>
         <a href="https://drumapp.netlify.com" target="_blank">
-        <LazyImage placeholder={placeholderImg} src={Drum} alt="Drum Machine" classStyle={"slider-image"} />
+        <img src={Drum} alt="Drum Machine" classStyle={"slider-image"} />
         </a>
         </div>
         </Slide>
         <Slide right>
         <div>
         <a href="https://mkdn-previewer.netlify.com" target="_blank">
-        <LazyImage placeholder={placeholderImg} src={Markdown} alt="Markdown Previewer" classStyle={"slider-image"} />
+        <img src={Markdown} alt="Markdown Previewer" classStyle={"slider-image"} />
         </a>
         </div>
         </Slide>
         <Slide right>
         <div>
         <a href="https://pomodoro-clck.netlify.com/" target="_blank">
-        <LazyImage placeholder={placeholderImg} src={Pomodoro} alt="Pomodoro Clock" classStyle={"slider-image"} />
+        <img src={Pomodoro} alt="Pomodoro Clock" classStyle={"slider-image"} />
         </a>
         </div>
         </Slide>

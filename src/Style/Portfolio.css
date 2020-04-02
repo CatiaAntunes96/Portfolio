@@ -3,6 +3,13 @@
     color: #086577;
 }
 
+.loading {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-42%, -25%);
+  }
+
 .slider-container{
     display: flex;
     justify-content: center;
