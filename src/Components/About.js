@@ -19,7 +19,7 @@ const About = () => {
             <div className="about-description">
             <p>My name is Cátia and I´m a junior front-end developer.<br></br>
             I have a degree on physical therapy and I`m currently working on this area.
-            However, I always had a passion for technology and and in the last year I started to expand my knowledge in programming. </p>
+            However, I always had a passion for technology and in the last year I started to expand my knowledge in programming. </p>
             So now, I want to expand my skills and knowledge and start to put them in action!<br></br>
             <p>I love to read, do exercise, animals, watch TV series and learn new things.</p>
             <br></br>
