@@ -14,10 +14,10 @@ const Find = () => {
     <h1 style={{color: "#086577"}}>You can find me on:</h1>
     <div className="icons">
     <IconContext.Provider value={{color: "#474242", size: "3.5em"}} >
-    <a href="https://github.com/CatiaAntunes96" target="_blank">
+    <a href="https://github.com/CatiaAntunes96" target="_blank" rel="noopener noreferrer">
     <FaGithub />
     </a>
-    <a href="https://www.freecodecamp.org/catia_antunes" target="_blank">
+    <a href="https://www.freecodecamp.org/catia_antunes" target="_blank" rel="noopener noreferrer">
     <FaFreeCodeCamp />
     </a>
     <FaLinkedin />

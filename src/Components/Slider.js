@@ -99,56 +99,56 @@ const Carousel = makeCarousel(CarouselUI);
         <Carousel defaultWait={7000}>
         <Slide right>
         <div>
-        <a href="https://heroes-library.netlify.com/" target="_blank">
+        <a href="https://heroes-library.netlify.com/" target="_blank" rel="noopener noreferrer">
         <img src={Heroes} alt="Heroes App" className="slider-image" />
         </a>
         </div>
         </Slide>
         <Slide right>
         <div>
-          <a href="https://ca-weather-app.netlify.com/" target="_blank">
+          <a href="https://ca-weather-app.netlify.com/" target="_blank" rel="noopener noreferrer">
             <img src={Weather} alt="Weather App" className="slider-image" />
           </a>
         </div>
         </Slide>
         <Slide right>
         <div>
-        <a href="https://randomquote-lotr.netlify.com/" target="_blank">
+        <a href="https://randomquote-lotr.netlify.com/" target="_blank" rel="noopener noreferrer">
         <img src={Quote} alt="Random-Quote Machine" className="slider-image" />
         </a>
         </div>
         </Slide>
         <Slide right>
         <div>
-        <a href="https://codepen.io/c-tia-antunes/full/BayVPge" target="_blank">
+        <a href="https://codepen.io/c-tia-antunes/full/BayVPge" target="_blank" rel="noopener noreferrer">
           <img src={Calculator} alt="Calculator App" className="slider-image" />
         </a>
         </div>
         </Slide>
         <Slide right>
         <div>
-        <a href="https://color-game-app.netlify.com/?_ga=2.199128230.801667734.1585840778-215967017.1585072614" target="_blank">
+        <a href="https://color-game-app.netlify.com/?_ga=2.199128230.801667734.1585840778-215967017.1585072614" target="_blank" rel="noopener noreferrer">
           <img src={Color} alt="Color Game App" className="slider-image" />
         </a>
         </div>
         </Slide>
         <Slide right>
         <div>
-        <a href="https://drumapp.netlify.com" target="_blank">
+        <a href="https://drumapp.netlify.com" target="_blank" rel="noopener noreferrer">
         <img src={Drum} alt="Drum Machine" className="slider-image" />
         </a>
         </div>
         </Slide>
         <Slide right>
         <div>
-        <a href="https://mkdn-previewer.netlify.com" target="_blank">
+        <a href="https://mkdn-previewer.netlify.com" target="_blank" rel="noopener noreferrer">
         <img src={Markdown} alt="Markdown Previewer" className="slider-image" />
         </a>
         </div>
         </Slide>
         <Slide right>
         <div>
-        <a href="https://pomodoro-clck.netlify.com/" target="_blank">
+        <a href="https://pomodoro-clck.netlify.com/" target="_blank" rel="noopener noreferrer">
         <img src={Pomodoro} alt="Pomodoro Clock" className="slider-image" />
         </a>
         </div>
