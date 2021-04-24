@@ -38,7 +38,7 @@ const About = () => {
           <br></br>
           <h1 className="about-title">My Skills</h1>
           <p>
-            I know how to work with <b>HTML</b>, <b>CSS</b> and
+            I know how to work with <b>HTML</b>, <b>CSS</b> and {" "}
             <b>JavaScript</b>, mainly on <b>React</b> environment. I also have
             basic knowledge in <b>jQuery</b>, <b>Sass</b>, <b>C</b> and{" "}
             <b>Java</b>.
