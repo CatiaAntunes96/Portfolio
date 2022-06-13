@@ -97,13 +97,13 @@ const Carousel = makeCarousel(CarouselUI);
     const Slider = () => {
       return(
         <Carousel defaultWait={7000}>
-        <Slide right>
-        <div>
+        {/*<Slide right>
+          <div>
         <a href="https://heroes-library.netlify.com/" target="_blank" rel="noopener noreferrer">
         <img src={Heroes} alt="Heroes App" className="slider-image" />
         </a>
         </div>
-        </Slide>
+        </Slide> */}
         <Slide right>
         <div>
           <a href="https://ca-weather-app.netlify.com/" target="_blank" rel="noopener noreferrer">
